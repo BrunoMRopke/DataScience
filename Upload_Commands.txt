@@ -1,0 +1,18 @@
+https://github.com/BrunoMRopke/DataScience.git
+
+git config --global user.name "BrunoMRopke"
+
+git config --global user.email "brunoropke@hotmail.com"
+
+git clone https://github.com/BrunoMRopke/DataScience.git
+
+/Adiciona arquivo para ser monitorado pelo Github
+git add Procedure_WRK.sql
+
+git commit -m "This is my first commit" Procedure_WRK.sql
+
+git push -u origin main
+
+
+/mostra se existe algo para commit
+git status 
